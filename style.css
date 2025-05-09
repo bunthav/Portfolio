@@ -45,7 +45,6 @@ section {
 @media (max-width: 768px) {
     .carousel-inner img {
         height: 200px;
-        min-width: 350px;
     }
 }
 
