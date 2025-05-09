@@ -1,0 +1,110 @@
+body {
+    padding-top: 56px;
+    font-family: 'Poppins', sans-serif;
+    color: #212529;
+    line-height: 1.6;
+    font-size: 1rem;
+    background-color: #fefefe;
+}
+
+/* Navigation */
+.NavPortfolio {
+    background-color: rgb(237, 232, 220);
+    opacity: 80%;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    background: linear-gradient(rgb(117, 162, 53), rgb(237, 232, 220)),
+        url("https://via.placeholder.com/1200x800") center center/cover no-repeat;
+}
+
+/* Projects */
+.project-slide {
+    background: linear-gradient(rgb(193, 207, 161));
+}
+
+section {
+    background: linear-gradient(rgb(237, 232, 220));
+}
+
+/* Carousel */
+.carousel-inner img {
+    max-height: 280px;
+    min-height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 200px;
+    }
+}
+
+.carousel-caption {
+    border-radius: 15px;
+}
+
+/* Clickable Images */
+.img-clickable {
+    cursor: pointer;
+}
+
+/* Contact List Styling */
+.contact-list a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+    color: #0066ff;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: #777777;
+    font-weight: 400;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.swiper {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    width: 600px;
+    max-width: 90%;
+    transition: transform 0.3s ease-in-out;
+}
+
+video {
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.Contact-Info a {
+    color: #5b9cff;
+}
