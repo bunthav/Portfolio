@@ -23,15 +23,14 @@ body {
 /* Projects */
 .project-slide {
     background: linear-gradient(rgb(193, 207, 161));
+    border: 2px rgb(74, 158, 67) solid;
+    margin: 20px;
 }
 
 section {
     background: linear-gradient(rgb(237, 232, 220));
 }
 
-/* .showcaseSlider img{
-    max-height: 900px;
-} */
 /* Carousel */
 .carousel-inner img {
     max-height: 500px;
@@ -44,7 +43,11 @@ section {
 
 @media (max-width: 768px) {
     .carousel-inner img {
-        height: 200px;
+        max-height: 300px;
+        min-width: 350px;
+    }
+    .Contact-Info{
+        border: none !important;
     }
 }
 
@@ -67,6 +70,14 @@ section {
 .contact-list a:hover {
     text-decoration: underline;
     color: #0066ff;
+}
+.Contact-Info{
+    border: 2px rgb(193, 193, 193) solid;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 35%;
+    min-height: 25%;
+    margin: 10px;
 }
 
 /* Typography */
