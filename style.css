@@ -29,17 +29,23 @@ section {
     background: linear-gradient(rgb(237, 232, 220));
 }
 
+/* .showcaseSlider img{
+    max-height: 900px;
+} */
 /* Carousel */
 .carousel-inner img {
-    max-height: 280px;
+    max-height: 500px;
     min-height: 150px;
     object-fit: cover;
     border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 @media (max-width: 768px) {
     .carousel-inner img {
         height: 200px;
+        min-width: 350px;
     }
 }
 
@@ -76,7 +82,7 @@ h5 {
 
 p {
     margin-bottom: 1rem;
-    color: #777777;
+    color: #ffffff;
     font-weight: 400;
 }
 
