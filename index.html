@@ -73,13 +73,13 @@
         <div class="container">
             <h2 class="text-center mb-4">Projects</h2>
             <div class="text-center mb-4">
-                <button class="btn btn-outline-dark me-2" onclick="filterProjects('all')">Show All</button>
-                <button class="btn btn-outline-primary me-2" onclick="filterProjects('web')">Web Projects</button>
-                <button class="btn btn-outline-success me-2" onclick="filterProjects('ux')">UX/UI Design</button>
+                <button class="btn btn-outline-dark me-2 mb-2" onclick="filterProjects('all')">Show All</button>
+                <button class="btn btn-outline-primary me-2 mb-2" onclick="filterProjects('web')">Web Projects</button>
+                <button class="btn btn-outline-success me-2 mb-2" onclick="filterProjects('ux')">UX/UI Design</button>
             </div>
               
             <!-- Project 1 -->
-            <div class="project-slide mb-5 p-4 bg-secondary text-white rounded" data-category="web" data-order="3">
+            <div class="project-slide mb-5 p-4 bg-secondary text-white rounded" data-category="web" data-order="3" data-visible="true">
                 <div class="row align-items-center">
                     
                     <!-- Text -->
@@ -144,7 +144,7 @@
             </div>
 
             <!-- Project 2 -->
-            <div class="project-slide mb-5 p-4 bg-secondary text-white rounded" data-category="web" data-order="5">
+            <div class="project-slide mb-5 p-4 bg-secondary text-white rounded" data-category="web" data-order="6" data-visible="false" style="display: none;">
                 <div class="row align-items-center">
                     <!-- Text -->
                     <div class="col-md-8 mb-4">
@@ -205,7 +205,7 @@
             </div>
 
             <!-- Project 3 -->
-            <div class="project-slide mb-5 p-4 bg-secondary text-white rounded" data-category="web" data-order="3">
+            <div class="project-slide mb-5 p-4 bg-secondary text-white rounded" data-category="web" data-order="4" data-visible="true">
                 <div class="row align-items-center">
                     <!-- Carousel -->
                     <div class="col-md-4 mb-4">
@@ -300,6 +300,7 @@
                                 rel="noopener noreferrer" class="text-primary">
                                 Visit GitHub Repository
                             </a>
+                            
                         </p>
                         <small class="fst-italic" style="color: rgb(255, 79, 35);">
                             (Note: This project isn't hosted yet due to hosting costs. However, you're welcome to
@@ -312,7 +313,7 @@
             </div>
 
             <!-- Project 4 -->
-            <div class="project-slide mb-5 p-4 bg-secondary text-white rounded" data-category="ux" data-order="1">
+            <div class="project-slide mb-5 p-4 bg-secondary text-white rounded" data-category="ux" data-order="1" data-visible="true">
                 <div class="row align-items-center">
                     <!-- Text -->
                     <div class="col-md-8 mb-4">
@@ -331,14 +332,16 @@
                                 aria-expanded="false" aria-controls="figmaEmbed1">
                                 View Prototype
                             </a>
+                            <span style="color: rgb(255, 79, 35);">
+                                (Please click full to get better experience)
+                            </span>
                         </p>
 
                         <div class="collapse mt-3" id="figmaEmbed1">
                             <div class="ratio ratio-16x9">
                                 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
-                                    src="https://embed.figma.com/proto/q2GkcTVXfxIylUPQt5ZTGF/E-Commerce-Mobile-App1--Copy-?page-id=0%3A1&node-id=14-458&p=f&viewport=194%2C53%2C0.15&scaling=scale-down&content-scaling=fixed&starting-point-node-id=14%3A458&show-proto-sidebar=1&embed-host=share"
-                                    allowfullscreen>
-                                </iframe>
+                                    src="https://embed.figma.com/proto/ZAQDY82aAZAVlhs2ZNliRf/Movie-and-plane?page-id=0%3A1&node-id=1-16&p=f&viewport=87%2C190%2C0.22&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A16&embed-host=share"
+                                    allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -402,7 +405,7 @@
             </div>
 
             <!-- Project 5 -->
-            <div class="project-slide mb-5 p-4 bg-secondary text-white rounded" data-category="ux" data-order="2">
+            <div class="project-slide mb-5 p-4 bg-secondary text-white rounded" data-category="ux" data-order="2" data-visible="true">
                 <div class="row align-items-center">
                     
                     <!-- Carousel -->
@@ -479,6 +482,9 @@
                                 aria-expanded="false" aria-controls="figmaEmbed2">
                                 View Prototype
                             </a>
+                            <span style="color: rgb(255, 79, 35);">
+                                (Please click full to get better experience)
+                            </span>
                         </p>
                     
                         <div class="collapse mt-3" id="figmaEmbed2">
@@ -495,7 +501,7 @@
             </div>
 
             <!-- Project 6 -->
-            <div class="project-slide mb-5 p-4 bg-secondary text-white rounded" data-category="ux" data-order="4">
+            <div class="project-slide mb-5 p-4 bg-secondary text-white rounded" data-category="ux" data-order="5" data-visible="true">
                 <div class="row align-items-center">
             
                     <!-- Text -->
@@ -513,13 +519,16 @@
                             <a href="#figmaEmbed2" class="btn btn-warning btn-sm" data-bs-toggle="collapse" role="button"
                                 aria-expanded="false" aria-controls="figmaEmbed2">
                                 View Prototype
-                            </a>
+                            </a> 
+                            <span style="color: rgb(255, 79, 35);"> 
+                                (Please click full to get better experience)
+                            </span>
                         </p>
             
                         <div class="collapse mt-3" id="figmaEmbed2">
                             <div class="ratio ratio-16x9">
                                 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
-                                    src="https://embed.figma.com/proto/q2GkcTVXfxIylUPQt5ZTGF/E-Commerce-Mobile-App1--Copy-?page-id=0%3A1&node-id=14-458&p=f&viewport=194%2C53%2C0.15&scaling=scale-down&content-scaling=fixed&starting-point-node-id=14%3A458&show-proto-sidebar=1&embed-host=share"
+                                    src="https://embed.figma.com/proto/EnSI5HxAdYVAXhu7QfpR6I/Website?page-id=26%3A76&node-id=26-117&p=f&viewport=-229%2C73%2C0.18&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=26%3A117&embed-host=share"
                                     allowfullscreen>
                                 </iframe>
                             </div>
@@ -585,6 +594,10 @@
             
                 </div>
             </div>
+        
+        </div>
+        <div id="seeMoreWrapper" class="text-center">
+            <button id="seeMoreBtn" class="btn btn-secondary">See More</button>
         </div>
     </section>
 
@@ -596,7 +609,7 @@
             <div class="swiper videoSwiper">
                 <div class="swiper-wrapper">
                     <!-- Slide 1 -->
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" data-category="web">
                         <div class="video-placeholder position-relative" onclick="loadVideo(this)"
                             data-src="./videos/APIFakestoreAWS.mp4">
                             <img src="./images/P1(4).png" alt="Video 1" class="w-100 rounded shadow">
@@ -605,7 +618,7 @@
                     </div>
     
                     <!-- Slide 2 -->
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" data-category="ux">
                         <div class="video-placeholder position-relative" onclick="loadVideo(this)"
                             data-src="./videos/Figma.mp4">
                             <img src="./images/F3(6).png" alt="Video 2" class="w-100 rounded shadow">
@@ -614,7 +627,7 @@
                     </div>
     
                     <!-- Slide 3 -->
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" data-category="web">
                         <div class="video-placeholder position-relative" onclick="loadVideo(this)"
                             data-src="./videos/DashboardReactAndExpress.mp4">
                             <img src="./images/DashboardThumnail.png" alt="Video 3" class="w-100 rounded shadow">
@@ -838,7 +851,21 @@
             container.replaceWith(video);
             video.play();
         }
+        document.addEventListener("DOMContentLoaded", () => {
+            const seeMoreBtn = document.getElementById("seeMoreBtn");
+            let isExpanded = false;
 
+            seeMoreBtn?.addEventListener("click", () => {
+                const hiddenProjects = document.querySelectorAll('.project-slide[data-visible="false"]');
+
+                hiddenProjects.forEach(slide => {
+                slide.style.display = isExpanded ? "none" : "block";
+                });
+
+                seeMoreBtn.textContent = isExpanded ? "See More" : "See Less";
+                isExpanded = !isExpanded;
+            });
+        });
     </script>
 
 </body>
