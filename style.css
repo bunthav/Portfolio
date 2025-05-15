@@ -124,3 +124,25 @@ video {
 .Contact-Info a {
     color: #5b9cff;
 }
+
+.video-placeholder {
+    cursor: pointer;
+    position: relative;
+}
+
+.play-button {
+    font-size: 3rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.play-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
